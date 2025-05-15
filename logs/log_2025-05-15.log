@@ -176,3 +176,58 @@
 2025-05-15 12:28:51,799 - INFO - Out-Of-Bag Score: 73.03716367087048
 2025-05-15 12:28:51,799 - INFO - RMSE: 61.972506979286344
 2025-05-15 12:28:51,799 - INFO - Model training completed. Final RMSE: 61.972506979286344
+2025-05-15 14:26:30,133 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 14:26:32,153 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 14:26:32,226 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 14:26:32,230 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 14:26:32,243 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 14:26:32,243 - INFO - Split summary:
+2025-05-15 14:26:32,243 - INFO - Train set: 26930 records
+2025-05-15 14:26:32,243 - INFO - Validation set: 2993 records
+2025-05-15 14:26:32,243 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 14:26:32,243 - INFO - Data Ingestion completed successfully
+2025-05-15 14:26:32,245 - INFO - Data Processing started
+2025-05-15 14:26:32,403 - INFO - Saved processed files to artifacts\processed
+2025-05-15 14:26:32,403 - INFO - Data Processing completed successfully
+2025-05-15 14:26:32,404 - INFO - Training xgboost model
+2025-05-15 14:26:32,405 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 14:26:32,446 - INFO - Building XGBoost model
+2025-05-15 14:26:33,405 - INFO - RMSE: 124.99591064453125
+2025-05-15 14:26:33,405 - INFO - Model training completed. Final RMSE: 124.99591064453125
+2025-05-15 14:28:16,621 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 14:28:18,541 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 14:28:18,621 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 14:28:18,624 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 14:28:18,637 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 14:28:18,637 - INFO - Split summary:
+2025-05-15 14:28:18,637 - INFO - Train set: 26930 records
+2025-05-15 14:28:18,637 - INFO - Validation set: 2993 records
+2025-05-15 14:28:18,637 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 14:28:18,637 - INFO - Data Ingestion completed successfully
+2025-05-15 14:28:18,640 - INFO - Data Processing started
+2025-05-15 14:28:18,752 - INFO - Saved processed files to artifacts\processed
+2025-05-15 14:28:18,752 - INFO - Data Processing completed successfully
+2025-05-15 14:28:18,753 - INFO - Training xgboost model
+2025-05-15 14:28:18,753 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 14:28:18,795 - INFO - Building XGBoost model
+2025-05-15 14:28:21,060 - INFO - RMSE: 119.26188659667969
+2025-05-15 14:28:21,060 - INFO - Model training completed. Final RMSE: 119.26188659667969
+2025-05-15 14:37:34,514 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 14:37:39,101 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 14:37:39,175 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 14:37:39,178 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 14:37:39,191 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 14:37:39,191 - INFO - Split summary:
+2025-05-15 14:37:39,191 - INFO - Train set: 26930 records
+2025-05-15 14:37:39,191 - INFO - Validation set: 2993 records
+2025-05-15 14:37:39,191 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 14:37:39,191 - INFO - Data Ingestion completed successfully
+2025-05-15 14:37:39,194 - INFO - Data Processing started
+2025-05-15 14:37:39,321 - INFO - Saved processed files to artifacts\processed
+2025-05-15 14:37:39,322 - INFO - Data Processing completed successfully
+2025-05-15 14:37:39,322 - INFO - Training random_forest model
+2025-05-15 14:37:39,322 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 14:37:39,368 - INFO - Building RandomForest model
+2025-05-15 14:37:42,087 - INFO - Out-Of-Bag Score: 73.3579442441429
+2025-05-15 14:37:42,088 - INFO - RMSE: 86.29163219170671
+2025-05-15 14:37:42,088 - INFO - Model training completed. Final RMSE: 86.29163219170671

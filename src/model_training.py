@@ -2,6 +2,7 @@ import os
 import random
 from pathlib import Path
 
+import joblib
 import numpy as np
 import pandas as pd
 import xgboost as xgb
@@ -55,6 +56,9 @@ class ModelTraining:
         self.val_path = self.processed_dir / "validation.csv"
 
         self.model_training_config = config["model_training"]
+
+        self.model_output_dir = artifact_dir / "models"
+        self.model_output_dir.mkdir(parents=True, exist_ok=True)
 
     def load_data(self):
         """
@@ -166,6 +170,17 @@ class ModelTraining:
         print(f"RMSE: {rmse}")
         return rmse
 
+    def save(self, model, model_type):
+        """
+        Save the trained model to a file.
+
+        Args:
+            model: Trained model instance
+        """
+        joblib.dump(
+            model, self.model_output_dir / f"{model_type}.joblib", compress=("lzma", 3)
+        )
+
     def run(self, model_type=None):
         """
         Run the full model training and evaluation pipeline.
@@ -192,5 +207,6 @@ class ModelTraining:
 
         self.train_model(model, train_data)
         rmse = self.evaluate_model(model, val_data)
-
         logger.info(f"Model training completed. Final RMSE: {rmse}")
+
+        self.save(model, model_type)
