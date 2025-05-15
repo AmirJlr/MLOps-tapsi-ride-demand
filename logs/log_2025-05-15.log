@@ -1,0 +1,13 @@
+2025-05-15 11:01:02,510 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 11:01:04,652 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 11:01:04,691 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 11:01:04,694 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 11:01:04,707 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 11:01:04,707 - INFO - Split summary:
+2025-05-15 11:01:04,708 - INFO - Train set: 26930 records
+2025-05-15 11:01:04,711 - INFO - Validation set: 2993 records
+2025-05-15 11:01:04,711 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 11:01:04,711 - INFO - Data Ingestion completed successfully
+2025-05-15 11:01:04,714 - INFO - Data Processing started
+2025-05-15 11:01:04,828 - INFO - Saved processed files to artifacts\processed
+2025-05-15 11:01:04,829 - INFO - Data Processing completed successfully
