@@ -11,3 +11,168 @@
 2025-05-15 11:01:04,714 - INFO - Data Processing started
 2025-05-15 11:01:04,828 - INFO - Saved processed files to artifacts\processed
 2025-05-15 11:01:04,829 - INFO - Data Processing completed successfully
+2025-05-15 12:06:04,386 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:06:06,414 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:06:06,522 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:06:06,527 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:06:06,553 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:06:06,553 - INFO - Split summary:
+2025-05-15 12:06:06,553 - INFO - Train set: 26930 records
+2025-05-15 12:06:06,553 - INFO - Validation set: 2993 records
+2025-05-15 12:06:06,553 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:06:06,553 - INFO - Data Ingestion completed successfully
+2025-05-15 12:06:06,558 - INFO - Data Processing started
+2025-05-15 12:06:06,752 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:06:06,752 - INFO - Data Processing completed successfully
+2025-05-15 12:06:06,753 - INFO - Training the model
+2025-05-15 12:06:06,753 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:07:53,562 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:07:55,485 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:07:55,555 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:07:55,559 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:07:55,572 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:07:55,572 - INFO - Split summary:
+2025-05-15 12:07:55,572 - INFO - Train set: 26930 records
+2025-05-15 12:07:55,572 - INFO - Validation set: 2993 records
+2025-05-15 12:07:55,572 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:07:55,572 - INFO - Data Ingestion completed successfully
+2025-05-15 12:07:55,576 - INFO - Data Processing started
+2025-05-15 12:07:55,710 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:07:55,710 - INFO - Data Processing completed successfully
+2025-05-15 12:07:55,711 - INFO - Training the model
+2025-05-15 12:07:55,711 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:09:53,497 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:09:55,426 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:09:55,498 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:09:55,502 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:09:55,515 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:09:55,515 - INFO - Split summary:
+2025-05-15 12:09:55,515 - INFO - Train set: 26930 records
+2025-05-15 12:09:55,515 - INFO - Validation set: 2993 records
+2025-05-15 12:09:55,515 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:09:55,515 - INFO - Data Ingestion completed successfully
+2025-05-15 12:09:55,518 - INFO - Data Processing started
+2025-05-15 12:09:55,635 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:09:55,636 - INFO - Data Processing completed successfully
+2025-05-15 12:09:55,636 - INFO - Training the model
+2025-05-15 12:09:55,636 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:10:13,528 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:10:16,764 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:10:16,836 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:10:16,840 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:10:16,856 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:10:16,856 - INFO - Split summary:
+2025-05-15 12:10:16,856 - INFO - Train set: 26930 records
+2025-05-15 12:10:16,856 - INFO - Validation set: 2993 records
+2025-05-15 12:10:16,856 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:10:16,856 - INFO - Data Ingestion completed successfully
+2025-05-15 12:10:16,859 - INFO - Data Processing started
+2025-05-15 12:10:16,965 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:10:16,965 - INFO - Data Processing completed successfully
+2025-05-15 12:10:16,966 - INFO - Training the model
+2025-05-15 12:10:16,966 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:12:54,137 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:12:56,404 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:12:56,482 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:12:56,485 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:12:56,499 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:12:56,499 - INFO - Split summary:
+2025-05-15 12:12:56,499 - INFO - Train set: 26930 records
+2025-05-15 12:12:56,499 - INFO - Validation set: 2993 records
+2025-05-15 12:12:56,499 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:12:56,499 - INFO - Data Ingestion completed successfully
+2025-05-15 12:12:56,502 - INFO - Data Processing started
+2025-05-15 12:12:56,654 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:12:56,654 - INFO - Data Processing completed successfully
+2025-05-15 12:12:56,655 - INFO - Training the model
+2025-05-15 12:12:56,655 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:13:01,889 - INFO - Out-Of-Bag Score: 74.1910007215135
+2025-05-15 12:13:01,889 - INFO - RMSE: 62.51536304225315
+2025-05-15 12:13:01,890 - INFO - Model training completed
+2025-05-15 12:13:18,592 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:13:20,441 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:13:20,512 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:13:20,515 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:13:20,532 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:13:20,532 - INFO - Split summary:
+2025-05-15 12:13:20,532 - INFO - Train set: 26930 records
+2025-05-15 12:13:20,532 - INFO - Validation set: 2993 records
+2025-05-15 12:13:20,532 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:13:20,532 - INFO - Data Ingestion completed successfully
+2025-05-15 12:13:20,537 - INFO - Data Processing started
+2025-05-15 12:13:20,668 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:13:20,669 - INFO - Data Processing completed successfully
+2025-05-15 12:13:20,669 - INFO - Training the model
+2025-05-15 12:13:20,670 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:13:36,110 - INFO - Out-Of-Bag Score: 73.89070781898859
+2025-05-15 12:13:36,110 - INFO - RMSE: 60.52622618243878
+2025-05-15 12:13:36,111 - INFO - Model training completed
+2025-05-15 12:14:14,733 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:14:16,683 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:14:16,761 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:14:16,765 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:14:16,779 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:14:16,779 - INFO - Split summary:
+2025-05-15 12:14:16,779 - INFO - Train set: 26930 records
+2025-05-15 12:14:16,779 - INFO - Validation set: 2993 records
+2025-05-15 12:14:16,779 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:14:16,779 - INFO - Data Ingestion completed successfully
+2025-05-15 12:14:16,784 - INFO - Data Processing started
+2025-05-15 12:14:16,925 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:14:16,926 - INFO - Data Processing completed successfully
+2025-05-15 12:14:16,926 - INFO - Training the model
+2025-05-15 12:14:16,926 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:14:23,922 - INFO - Out-Of-Bag Score: 73.945858533587
+2025-05-15 12:14:23,922 - INFO - RMSE: 63.2138682784484
+2025-05-15 12:14:23,923 - INFO - Model training completed
+2025-05-15 12:23:14,300 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:23:16,207 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:23:16,278 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:23:16,282 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:23:16,296 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:23:16,296 - INFO - Split summary:
+2025-05-15 12:23:16,296 - INFO - Train set: 26930 records
+2025-05-15 12:23:16,296 - INFO - Validation set: 2993 records
+2025-05-15 12:23:16,296 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:23:16,296 - INFO - Data Ingestion completed successfully
+2025-05-15 12:23:16,299 - INFO - Data Processing started
+2025-05-15 12:23:16,414 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:23:16,414 - INFO - Data Processing completed successfully
+2025-05-15 12:23:16,415 - INFO - Training xgboost model
+2025-05-15 12:25:54,643 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:25:56,744 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:25:56,824 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:25:56,828 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:25:56,842 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:25:56,842 - INFO - Split summary:
+2025-05-15 12:25:56,842 - INFO - Train set: 26930 records
+2025-05-15 12:25:56,842 - INFO - Validation set: 2993 records
+2025-05-15 12:25:56,843 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:25:56,843 - INFO - Data Ingestion completed successfully
+2025-05-15 12:25:56,845 - INFO - Data Processing started
+2025-05-15 12:25:56,958 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:25:56,958 - INFO - Data Processing completed successfully
+2025-05-15 12:25:56,959 - INFO - Training xgboost model
+2025-05-15 12:25:56,959 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:25:57,006 - INFO - Building XGBoost model
+2025-05-15 12:25:57,855 - INFO - RMSE: 89.72196960449219
+2025-05-15 12:25:57,855 - INFO - Model training completed. Final RMSE: 89.72196960449219
+2025-05-15 12:28:44,532 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 12:28:46,361 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 12:28:46,431 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 12:28:46,436 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 12:28:46,449 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 12:28:46,449 - INFO - Split summary:
+2025-05-15 12:28:46,449 - INFO - Train set: 26930 records
+2025-05-15 12:28:46,449 - INFO - Validation set: 2993 records
+2025-05-15 12:28:46,449 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 12:28:46,449 - INFO - Data Ingestion completed successfully
+2025-05-15 12:28:46,453 - INFO - Data Processing started
+2025-05-15 12:28:46,560 - INFO - Saved processed files to artifacts\processed
+2025-05-15 12:28:46,561 - INFO - Data Processing completed successfully
+2025-05-15 12:28:46,561 - INFO - Training random_forest model
+2025-05-15 12:28:46,561 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 12:28:46,599 - INFO - Building RandomForest model
+2025-05-15 12:28:51,799 - INFO - Out-Of-Bag Score: 73.03716367087048
+2025-05-15 12:28:51,799 - INFO - RMSE: 61.972506979286344
+2025-05-15 12:28:51,799 - INFO - Model training completed. Final RMSE: 61.972506979286344
