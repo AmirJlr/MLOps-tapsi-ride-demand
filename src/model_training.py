@@ -3,6 +3,7 @@ import random
 from pathlib import Path
 
 import joblib
+import mlflow
 import numpy as np
 import pandas as pd
 import xgboost as xgb
@@ -159,16 +160,16 @@ class ModelTraining:
         X_val = val_data.drop(columns=["demand"])
         y_val = val_data["demand"]
         y_pred = model.predict(X_val)
-        rmse = root_mean_squared_error(y_val, y_pred)
+        self.rmse = root_mean_squared_error(y_val, y_pred)
 
         # Only print oob_score for RandomForest which supports it
         if hasattr(model, "oob_score_"):
-            logger.info(f"Out-Of-Bag Score: {model.oob_score_}")
-            print(f"Out-Of-Bag Score: {model.oob_score_}")
+            self.oob_score = model.oob_score_
+            logger.info(f"Out-Of-Bag Score: {self.oob_score}")
+            print(f"Out-Of-Bag Score: {self.oob_score}")
 
-        logger.info(f"RMSE: {rmse}")
-        print(f"RMSE: {rmse}")
-        return rmse
+        logger.info(f"RMSE: {self.rmse}")
+        print(f"RMSE: {self.rmse}")
 
     def save(self, model, model_type):
         """
@@ -177,9 +178,8 @@ class ModelTraining:
         Args:
             model: Trained model instance
         """
-        joblib.dump(
-            model, self.model_output_dir / f"{model_type}.joblib", compress=("lzma", 3)
-        )
+        self.model_output_path = self.model_output_dir / f"{model_type}.joblib"
+        joblib.dump(model, self.model_output_path, compress=("lzma", 3))
 
     def run(self, model_type=None):
         """
@@ -195,18 +195,34 @@ class ModelTraining:
         if model_type is None:
             model_type = self.model_training_config.get("model_type", "random_forest")
 
-        logger.info(f"Training {model_type} model")
-
         # Set seeds for reproducibility
         SEED = self.model_training_config["seed"]
         set_seeds(SEED)
 
-        train_data, val_data = self.load_data()
+        mlflow.set_experiment("MLOps-tapsi-ride-demand")
+        with mlflow.start_run():
+            logger.info(f"Training {model_type} model")
+            logger.info(f"MLflow started")
 
-        model = self.build_model(SEED, model_type=model_type)
+            mlflow.set_tag("model_type", model_type)
 
-        self.train_model(model, train_data)
-        rmse = self.evaluate_model(model, val_data)
-        logger.info(f"Model training completed. Final RMSE: {rmse}")
+            train_data, val_data = self.load_data()
+            mlflow.log_artifact(self.train_path, "datasets")
+            mlflow.log_artifact(self.val_path, "datasets")
 
-        self.save(model, model_type)
+            model = self.build_model(SEED, model_type=model_type)
+            self.train_model(model, train_data)
+            self.evaluate_model(model, val_data)
+
+            mlflow.log_metric("rmse", self.rmse)
+            if model_type == "random_forest":
+                mlflow.log_metric("oob_score", self.oob_score)
+
+            self.save(model, model_type)
+            mlflow.log_artifact(self.model_output_path, "models")
+
+            params = model.get_params()
+            mlflow.log_params(params)
+
+            logger.info(f"MLflow run completed")
+            mlflow.end_run()

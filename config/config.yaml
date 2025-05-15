@@ -28,5 +28,5 @@ model_training:
   reg_lambda: 1.0
   
   # Model selection (options: "random_forest", "xgboost")
-  model_type: "random_forest"
+  model_type: "xgboost"
  

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/AmiR/OneDrive/Desktop/github/MLOps-tapsi-ride-demand/mlruns/750392479780030698/5d5cc6d38fd3448c89b4b02a3a5b221f/artifacts
+end_time: 1747309834626
+entry_point_name: ''
+experiment_id: '750392479780030698'
+lifecycle_stage: active
+run_id: 5d5cc6d38fd3448c89b4b02a3a5b221f
+run_name: capable-auk-759
+run_uuid: 5d5cc6d38fd3448c89b4b02a3a5b221f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747309830233
+status: 3
+tags: []
+user_id: AmiR

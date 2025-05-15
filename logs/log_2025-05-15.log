@@ -231,3 +231,42 @@
 2025-05-15 14:37:42,087 - INFO - Out-Of-Bag Score: 73.3579442441429
 2025-05-15 14:37:42,088 - INFO - RMSE: 86.29163219170671
 2025-05-15 14:37:42,088 - INFO - Model training completed. Final RMSE: 86.29163219170671
+2025-05-15 15:16:08,043 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 15:16:10,049 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 15:16:10,091 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 15:16:10,096 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 15:16:10,109 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 15:16:10,109 - INFO - Split summary:
+2025-05-15 15:16:10,109 - INFO - Train set: 26930 records
+2025-05-15 15:16:10,109 - INFO - Validation set: 2993 records
+2025-05-15 15:16:10,109 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 15:16:10,109 - INFO - Data Ingestion completed successfully
+2025-05-15 15:16:10,112 - INFO - Data Processing started
+2025-05-15 15:16:10,254 - INFO - Saved processed files to artifacts\processed
+2025-05-15 15:16:10,254 - INFO - Data Processing completed successfully
+2025-05-15 15:16:10,255 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 15:16:11,588 - INFO - Training random_forest model
+2025-05-15 15:16:11,588 - INFO - MLflow started
+2025-05-15 15:16:11,653 - INFO - Building RandomForest model
+2025-05-15 15:16:15,284 - INFO - Out-Of-Bag Score: 72.77833520778088
+2025-05-15 15:16:15,284 - INFO - RMSE: 70.56529507304275
+2025-05-15 15:16:45,801 - INFO - MLflow run completed
+2025-05-15 15:20:25,599 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 15:20:29,396 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 15:20:29,438 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 15:20:29,441 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 15:20:29,456 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 15:20:29,456 - INFO - Split summary:
+2025-05-15 15:20:29,456 - INFO - Train set: 26930 records
+2025-05-15 15:20:29,456 - INFO - Validation set: 2993 records
+2025-05-15 15:20:29,456 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 15:20:29,456 - INFO - Data Ingestion completed successfully
+2025-05-15 15:20:29,460 - INFO - Data Processing started
+2025-05-15 15:20:29,573 - INFO - Saved processed files to artifacts\processed
+2025-05-15 15:20:29,573 - INFO - Data Processing completed successfully
+2025-05-15 15:20:29,574 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 15:20:30,272 - INFO - Training xgboost model
+2025-05-15 15:20:30,272 - INFO - MLflow started
+2025-05-15 15:20:30,325 - INFO - Building XGBoost model
+2025-05-15 15:20:33,109 - INFO - RMSE: 120.67091369628906
+2025-05-15 15:20:34,625 - INFO - MLflow run completed
