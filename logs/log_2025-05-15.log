@@ -270,3 +270,22 @@
 2025-05-15 15:20:30,325 - INFO - Building XGBoost model
 2025-05-15 15:20:33,109 - INFO - RMSE: 120.67091369628906
 2025-05-15 15:20:34,625 - INFO - MLflow run completed
+2025-05-15 17:05:24,936 - INFO - Data Ingestion started for https://tap30-demand.s3.ir-thr-at1.arvanstorage.ir/tap30_demand_prediction.txt
+2025-05-15 17:05:28,307 - INFO - Data format: 732 periods, 8x8 grid
+2025-05-15 17:05:28,347 - INFO - Saved train data with 26930 records to artifacts\raw\train.csv
+2025-05-15 17:05:28,350 - INFO - Saved validation data with 2993 records to artifacts\raw\validation.csv
+2025-05-15 17:05:28,364 - INFO - Saved test data with 16925 records to artifacts\raw\test.csv
+2025-05-15 17:05:28,364 - INFO - Split summary:
+2025-05-15 17:05:28,364 - INFO - Train set: 26930 records
+2025-05-15 17:05:28,364 - INFO - Validation set: 2993 records
+2025-05-15 17:05:28,364 - INFO - Test set (demand=-1): 16925 records
+2025-05-15 17:05:28,364 - INFO - Data Ingestion completed successfully
+2025-05-15 17:05:28,366 - INFO - Data Processing started
+2025-05-15 17:05:28,490 - INFO - Saved processed files to artifacts\processed
+2025-05-15 17:05:28,490 - INFO - Data Processing completed successfully
+2025-05-15 17:05:28,491 - INFO - Random seeds set to 42 for all libraries
+2025-05-15 17:05:29,666 - INFO - Training xgboost model
+2025-05-15 17:05:29,666 - INFO - MLflow started
+2025-05-15 17:05:29,722 - INFO - Building XGBoost model
+2025-05-15 17:05:31,931 - INFO - RMSE: 88.46066284179688
+2025-05-15 17:05:33,249 - INFO - MLflow run completed

@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: mlops-tapsi-ride-demand
+Version: 0.2.0
+Author: Amir Jlr
+Requires-Dist: matplotlib==3.10.3
+Requires-Dist: pandas==2.2.3
+Requires-Dist: numpy==2.2.5
+Requires-Dist: scipy==1.15.3
+Requires-Dist: scikit-learn==1.6.1
+Requires-Dist: xgboost==3.0.1
+Requires-Dist: mlflow==2.21.3
+Dynamic: author
+Dynamic: requires-dist

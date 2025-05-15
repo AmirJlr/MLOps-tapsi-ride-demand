@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+mlops_tapsi_ride_demand.egg-info/PKG-INFO
+mlops_tapsi_ride_demand.egg-info/SOURCES.txt
+mlops_tapsi_ride_demand.egg-info/dependency_links.txt
+mlops_tapsi_ride_demand.egg-info/requires.txt
+mlops_tapsi_ride_demand.egg-info/top_level.txt
+pipeline/__init__.py
+pipeline/run.py
+src/__init__.py
+src/config_reader.py
+src/data_ingestion.py
+src/data_processing.py
+src/logger.py
+src/main.py
+src/model_training.py

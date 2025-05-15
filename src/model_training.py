@@ -10,7 +10,7 @@ import xgboost as xgb
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import root_mean_squared_error
 
-from logger import get_logger
+from src.logger import get_logger
 
 logger = get_logger(__name__)
 
@@ -181,7 +181,7 @@ class ModelTraining:
         self.model_output_path = self.model_output_dir / f"{model_type}.joblib"
         joblib.dump(model, self.model_output_path, compress=("lzma", 3))
 
-    def run(self, model_type=None):
+    def run(self):
         """
         Run the full model training and evaluation pipeline.
 
@@ -192,8 +192,8 @@ class ModelTraining:
                                        Defaults to None.
         """
         # Get model type from config if not provided
-        if model_type is None:
-            model_type = self.model_training_config.get("model_type", "random_forest")
+
+        model_type = self.model_training_config.get("model_type", "random_forest")
 
         # Set seeds for reproducibility
         SEED = self.model_training_config["seed"]
