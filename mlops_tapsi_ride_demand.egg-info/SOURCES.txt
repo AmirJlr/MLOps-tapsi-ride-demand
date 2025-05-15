@@ -13,5 +13,6 @@ src/config_reader.py
 src/data_ingestion.py
 src/data_processing.py
 src/logger.py
-src/main.py
 src/model_training.py
+web/__init__.py
+web/application.py

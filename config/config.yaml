@@ -29,4 +29,9 @@ model_training:
   
   # Model selection (options: "random_forest", "xgboost")
   model_type: "xgboost"
- 
+
+web:
+  port: 8080
+  host: "0.0.0.0"
+  model_output_dir: "artifacts/models"
+  model_name: "xgboost.joblib"
