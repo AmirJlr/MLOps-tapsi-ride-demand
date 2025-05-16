@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mlops-tapsi-ride-demand
+  namespace: mlops
+  labels:
+    app: mlops-tapsi-ride-demand
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mlops-tapsi-ride-demand
+  template:
+    metadata:
+      labels:
+        app: mlops-tapsi-ride-demand
+    spec:
+      containers:
+      - name: mlops-tapsi-ride-demand
+        image: iamirjb/mlops-tapsi-ride-demand:0.1.0
+        ports:
+        - containerPort: 8080

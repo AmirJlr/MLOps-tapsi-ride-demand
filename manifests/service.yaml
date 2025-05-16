@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mlops-tapsi-ride-demand
+  namespace: mlops
+  labels:
+    app: mlops-tapsi-ride-demand
+spec:
+  type: LoadBalancer
+  selector:
+    app: mlops-tapsi-ride-demand
+  ports:
+    - name: web
+      port: 80
+      targetPort: 8080
