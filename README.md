@@ -58,4 +58,4 @@ A sample of the input data is given below:
 - **CI/CD**: GitHub Actions automates the building of Docker images, running tests, and pushing images to Docker Hub. This automates the release pipeline, enabling rapid and reliable updates.
 - **Deployment & Orchestration**: Kubernetes is used as the deployment platform, providing scalability, resilience, and efficient management of containerized applications in a production environment.
 - **Version Control**: Git (via GitHub) is used for versioning code, data, and configurations, which is essential for tracking changes, collaboration, and rollbacks.
-- **Monitoring**: (Placeholder for a chosen monitoring tool, e.g., Prometheus, Grafana) - Essential for observing model performance and system health in production, enabling proactive issue detection and maintenance.
+
